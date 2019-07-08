@@ -20,4 +20,9 @@ describe('multiplesOfN', () => {
     const result = multiplesOfN(113);
     expect(result).toEqual([]);
   });
+
+  it('returns an empty array for any number under 1', () => {
+    const result = multiplesOfN(0);
+    expect(result).toEqual([]);
+  });
 });

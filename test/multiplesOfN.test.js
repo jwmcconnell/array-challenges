@@ -1,4 +1,4 @@
-const { multiplesOfN } = require('../index');
+const { multiplesOfN } = require('../lib/multiplesOfN');
 
 describe('multiplesOfN', () => {
   it('returns an array', () => {
